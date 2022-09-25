@@ -1,0 +1,16 @@
+{
+  "name": "snap-it",
+  "version": "1.0.0",
+  "description": "A web based  camera for quickly taking photos and copying it to clipboard with filters",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass --watch css/ style.css"
+  },
+  "author": "Rakesh Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
